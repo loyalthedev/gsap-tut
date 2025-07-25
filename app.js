@@ -5,11 +5,10 @@ gsap.to(".square", {
   duration: 8,
   scrollTrigger: {
     trigger: ".square",
-    start: "top 60%",
-    end: "top 40%",
-    toggleActions: "restart pause resume complete",
-    // play pause restart completer resume reverse none reset
-    //              onEnter onLeave onEnterBback onLeaveBack
+    start: "top 80%",
+    end: "top 30%",
+    scrub: true,
+    toggleActions: "restart none none none",
     markers: {
       startColor: "purple",
       endColor: "fuchsia",
