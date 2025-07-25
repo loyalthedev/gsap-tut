@@ -19,6 +19,11 @@ body {
     width: 150px;
     background-color: fuchsia;
 }
+.square2 {
+    height: 20vh;
+    width: 150px;
+    background-color: green;
+}
 
 
 .red {
